@@ -21,6 +21,7 @@ class _DescriptionPageState extends State<DescriptionPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(widget.box.title),
+        backgroundColor: const Color.fromARGB(255, 175, 157, 206),
         actions: [
           IconButton(
             onPressed: () {
